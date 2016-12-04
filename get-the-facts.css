@@ -109,7 +109,12 @@
   background-size: contain;
 }
 
-#footnotes sup {
+#references h2 {
+  text-align: left;
+}
+
+#references sup {
+  color: black;
   text-align: left;
   text-transform: none;
   display: block;
