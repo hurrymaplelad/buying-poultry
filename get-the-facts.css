@@ -2,6 +2,8 @@
   font-family: Gotham, "Lato", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 #get-the-facts h1 {
@@ -29,6 +31,16 @@
   margin: 0 auto;
 }
 
+.gtf-section {
+  padding: 3.5% 0 4%;
+}
+
+@media (min-width: 1160px) {
+  #gtf-section {
+    padding: 35px 0 45px;
+  }
+}
+
 /* Sections */
 
 #poultry-problem {
@@ -41,7 +53,7 @@
   color: white;
   text-shadow: 0 0 15px rgba(0,0,0, 0.5);
   font-size: 74px;
-  padding: 30px 0;
+  padding: 30px 0 15px;
   margin: 0 30px; /* don't extend zag border beyond type */
   line-height: 1;
   background: url(images/zag-white.png) repeat-x left bottom;
@@ -76,6 +88,25 @@
   border-radius: 5px;
   color: white;
   padding: 12px 16px 16px 16px;
+}
+
+#eating-more-than-ever h2 {
+  color: #7EAFDF;
+  padding: 0 10%;
+}
+
+#eating-more-than-ever .graphic {
+  width: 100%;
+  max-width: 622px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2% 10px;
+}
+
+#eating-more-than-ever .graphic-inner {
+  padding-top: 57.4%;
+  background: url(images/eating-more-than-ever.png) no-repeat center bottom;
+  background-size: contain;
 }
 
 #footnotes sup {
