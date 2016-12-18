@@ -187,6 +187,22 @@
   margin-bottom: 6px;
 }
 
+#bred-large {
+  background: #7DAEDF url(images/bred-large.png) no-repeat center bottom;
+  padding-bottom: 300px;
+}
+@media (max-width: 546px) {
+  #bred-large {
+    background-size: contain;
+    padding-bottom: 55%;
+  }
+}
+
+
+#bred-large h2 {
+  color: white;
+}
+
 #references h2 {
   text-align: left;
 }
