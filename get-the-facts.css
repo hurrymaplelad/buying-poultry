@@ -1,28 +1,30 @@
 #get-the-facts {
-  font-family: Gotham, "Lato", sans-serif;
-  text-transform: uppercase;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-#get-the-facts h1 {
+#get-the-facts .title,
+#get-the-facts h1,
+#get-the-facts h2,
+#get-the-facts h3 {
   font-family: Gotham, "Lato", sans-serif;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
+#get-the-facts .copy {
+  font-family: "Archer", "Antic Slab", serif;
+}
+
 #get-the-facts h2 {
-  font-family: Gotham, "Lato", sans-serif;
-  font-weight: bold;
   font-size: 38px;
   line-height: 1;
 }
 
 #get-the-facts h3 {
-  font-family: Gotham, "Lato", sans-serif;
-  font-weight: bold;
-  line-height: 1;
   font-size: 30px;
+  line-height: 1;
 }
 
 #get-the-facts sup {
@@ -44,7 +46,7 @@
 }
 
 @media (min-width: 1160px) {
-  #gtf-section {
+  .gtf-section {
     padding: 35px 0 45px;
   }
 }
@@ -140,7 +142,6 @@
 
 #consumed-every-year .pop {
   font-size: 24px;
-  font-family: "Archer", 'Copse', 'Serif';
   color: #282828;
 }
 
@@ -198,10 +199,44 @@
   }
 }
 
-
 #bred-large h2 {
   color: white;
 }
+
+#good-for-us {
+  background: url(images/good-for-us.jpg) no-repeat left top;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 15px rgba(0,0,0, 0.5);
+  /*padding-bottom: 300px;*/
+}
+#good-for-us .outer {
+  text-align: left;
+  padding: 0 10%;
+}
+#good-for-us .quote {
+  max-width: 440px;
+}
+#good-for-us .quote > * {
+  color: white;
+  text-shadow: 0 0 15px rgba(0,0,0, 1);
+}
+#good-for-us h2 {
+  padding-bottom: 20px;
+  background: url(images/zag-white.png) repeat-x left bottom;
+}
+#good-for-us .intro {
+  margin-left: -0.3em;
+}
+#good-for-us .punch {
+  font-size: 22px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+#good-for-us .byline {
+  text-align: right
+}
+
 
 #references h2 {
   text-align: left;
