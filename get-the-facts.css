@@ -4,17 +4,22 @@
   padding: 0;
 }
 
-#get-the-facts .title,
-#get-the-facts h1,
-#get-the-facts h2,
-#get-the-facts h3 {
-  font-family: Gotham, "Lato", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+/*
+ * Typography
+ */
 
 #get-the-facts .copy {
   font-family: "Archer", "Antic Slab", serif;
+}
+
+#get-the-facts .title,
+#get-the-facts h1,
+#get-the-facts h2,
+#get-the-facts h3,
+#get-the-facts h4 {
+  font-family: Gotham, "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #get-the-facts h2 {
@@ -27,6 +32,12 @@
   line-height: 1;
 }
 
+#get-the-facts h4 {
+  font-size: 22px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+
 #get-the-facts sup {
   font-size: 60%;
   /* Align with top of text without expanding line-height of lines with a <sup>*/
@@ -36,6 +47,9 @@
   top: 0.2em;
 }
 
+/*
+ * Layout
+ */
 .gtf-column {
   max-width: 1160px;
   margin: 0 auto;
@@ -50,6 +64,12 @@
     padding: 35px 0 45px;
   }
 }
+
+#get-the-facts .paper-bg {
+  background-color: #E8E8E8;
+  background: url(images/paper-bg.jpg) repeat;
+}
+
 
 /* Sections */
 
@@ -71,8 +91,6 @@
 }
 
 #percent-factory {
-  background-color: #E8E8E8;
-  background: url(images/paper-bg.jpg) repeat;
   padding: 3.5% 0 4%;
 }
 
@@ -117,11 +135,6 @@
   padding-top: 57.4%;
   background: url(images/eating-more-than-ever.png) no-repeat center bottom;
   background-size: contain;
-}
-
-#consumed-every-year {
-  background-color: #E8E8E8;
-  background: url(images/paper-bg.jpg) repeat;
 }
 
 #consumed-every-year h2 {
@@ -201,6 +214,7 @@
 
 #bred-large h2 {
   color: white;
+  padding: 0 20px;
 }
 
 #good-for-us {
@@ -229,14 +243,32 @@
   margin-left: -0.3em;
 }
 #good-for-us .punch {
-  font-size: 22px;
-  line-height: 1.1;
   letter-spacing: 1px;
 }
 #good-for-us .byline {
   text-align: right
 }
 
+#multidrug-resistant {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 799px) {
+  #multidrug-resistant .gtf-column {
+    max-width: 430px;
+  }
+}
+
+#multidrug-resistant .copy {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+#multidrug-resistant img {
+  width: 50%;
+  margin: 30px auto 0;
+}
 
 #references h2 {
   text-align: left;
