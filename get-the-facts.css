@@ -36,6 +36,7 @@
   font-size: 22px;
   line-height: 1.1;
   letter-spacing: 0px;
+  margin: 0;
 }
 
 #get-the-facts sup {
@@ -215,25 +216,28 @@
 #bred-large h2 {
   color: white;
   padding: 0 20px;
+  pe
 }
 
 #good-for-us {
   background: url(images/good-for-us.jpg) no-repeat left top;
   background-size: cover;
   color: white;
-  text-shadow: 0 0 15px rgba(0,0,0, 0.5);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   /*padding-bottom: 300px;*/
 }
 #good-for-us .outer {
   text-align: left;
   padding: 0 10%;
 }
-#good-for-us .quote {
-  max-width: 440px;
+@media (min-width: 780px) {
+  #good-for-us .quote {
+    max-width: 440px;
+  }
 }
 #good-for-us .quote > * {
   color: white;
-  text-shadow: 0 0 15px rgba(0,0,0, 1);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 #good-for-us h2 {
   padding-bottom: 20px;
@@ -268,6 +272,27 @@
 #multidrug-resistant img {
   width: 50%;
   margin: 30px auto 0;
+}
+
+#environment {
+  background: url(images/environment.jpg) no-repeat 10% center;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 15px rgba(0,0,0, 0.7);
+}
+#environment .outer {
+  text-align: left;
+  padding: 0 10%;
+  padding-bottom: 200px;
+}
+#environment .intro {
+  margin-left: -0.3em;
+}
+#environment .punch {
+  letter-spacing: 1px;
+}
+#environment .byline {
+  font-size: 70%;
 }
 
 #references h2 {
