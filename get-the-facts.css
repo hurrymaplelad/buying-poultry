@@ -36,7 +36,8 @@
   font-size: 22px;
   line-height: 1.1;
   letter-spacing: 0px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #get-the-facts sup {
@@ -224,7 +225,6 @@
   background-size: cover;
   color: white;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  /*padding-bottom: 300px;*/
 }
 #good-for-us .outer {
   text-align: left;
@@ -293,6 +293,56 @@
 }
 #environment .byline {
   font-size: 70%;
+}
+
+#ghg {
+  background: #F1F1F1;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#ghg .heading {
+  max-width: 760px;
+}
+#ghg .outer {
+  margin: 15px auto 0;
+  position: relative;
+  width: 657px;
+  max-width: 100%;
+}
+#ghg .world {
+  background: url(images/ghg.png) no-repeat center center;
+  background-size: contain;
+  position: relative;
+  padding-bottom: 109%;
+}
+#ghg .legend-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+#ghg .legend-livestock {
+  color: #232323;
+}
+#ghg .legend-livestock .legend-icon {
+  background-color: #232323;
+}
+#ghg .legend-other {
+  color: #48AFE2;
+  margin-bottom: 25px;
+}
+#ghg .legend-other .legend-icon {
+  background-color: #48AFE2;
+}
+#ghg .bittman {
+  background-color: #282828;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 35px;
+  display: inline-block;
+}
+#ghg .bittman h4 {
+  font-size: 26px;
 }
 
 #references h2 {
