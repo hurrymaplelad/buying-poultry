@@ -10,6 +10,7 @@
 
 #get-the-facts .copy {
   font-family: "Archer", "Antic Slab", serif;
+  line-height: 1.2;
 }
 
 #get-the-facts .title,
@@ -240,7 +241,9 @@
   text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 #good-for-us h2 {
-  padding-bottom: 20px;
+  padding-bottom: 31px;
+  margin-bottom: 22px;
+  margin-top: 0;
   background: url(images/zag-white.png) repeat-x left bottom;
 }
 #good-for-us .intro {
@@ -279,6 +282,9 @@
   background-size: cover;
   color: white;
   text-shadow: 0 0 15px rgba(0,0,0, 0.7);
+}
+#environment h2 {
+  margin-top: 0;
 }
 #environment .outer {
   text-align: left;
@@ -343,6 +349,40 @@
 }
 #ghg .bittman h4 {
   font-size: 26px;
+}
+
+#farmers {
+  background: url(images/farmers.jpg) no-repeat 40% top;
+  background-size: cover;
+  color: white;
+}
+#farmers .outer {
+  text-align: left;
+  padding: 0 10%;
+}
+@media (min-width: 780px) {
+  #farmers .quote {
+    max-width: 535px;
+  }
+}
+#farmers .quote > * {
+  color: white;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+#farmers h2 {
+  padding-bottom: 31px;
+  margin-bottom: 22px;
+  margin-top: 0;
+  background: url(images/zag-white.png) repeat-x left bottom;
+}
+#farmers .intro {
+  margin-left: -0.3em;
+}
+#farmers .punch {
+  letter-spacing: 1px;
+}
+#farmers .byline {
+  text-align: right
 }
 
 #references h2 {
