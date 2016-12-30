@@ -587,6 +587,26 @@
   padding-bottom: 40px;
 }
 
+#labels .box {
+  background-color: #7EAFDF;
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 25px 20px;
+}
+#labels .box h3 {
+  margin: 12px 0;
+}
+#labels .box hr {
+  height: 10px;
+  border: none;
+  background: url(images/zag-white.png) repeat-x left bottom;
+}
+#labels .box img {
+  margin: 20px 0;
+  max-width: 100%;
+}
+
 #together {
   background: url(images/together.jpg) no-repeat 72% top;
   background-size: cover;
