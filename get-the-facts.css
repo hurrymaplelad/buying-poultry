@@ -385,6 +385,40 @@
   text-align: right
 }
 
+#big-ag h4 {
+  color: #7EAFDF;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+#big-ag .outer {
+  max-width: 791px;
+  margin: 10px auto 0;
+}
+#big-ag .circle {
+  background: url(images/big-ag.png) no-repeat center center;
+  background-size: contain;
+  padding-bottom: 91%;
+  margin: 0 10px;
+  position: relative;
+}
+#big-ag .circle h2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 32% 30% 0;
+}
+@media (max-width: 775px) {
+  #big-ag .circle h2 {
+    padding-top: 26%;
+  }
+}
+@media (max-width: 595px) {
+  #big-ag .circle h2 {
+    font-size: 24px;
+    padding-top: 28%;
+  }
+}
+
 #references h2 {
   text-align: left;
 }
