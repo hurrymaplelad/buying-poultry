@@ -481,6 +481,112 @@
   margin: 1px 0;
 }
 
+#search-bp .gtf-column {
+  padding: 0 20px;
+}
+#search-bp h2 {
+  margin: 0;
+}
+#search-bp h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+#grades {
+  margin-top: 30px;
+}
+#grades .grade-column {
+  max-width: 283px;
+  display: inline-block;
+  margin-right: 10px;
+}@media (max-width: 900px) {
+  #grades {
+    max-width: 370px;
+  }
+  #grades .grade-column {
+    max-width: none;
+    width: 95%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+#grades .grade-column:last-child {
+  margin-right: 0;
+}
+#grades .grade-column.bad .grade {
+  background-color: #D6002B;
+}
+#grades .grade-column.bad .letter {
+  color: #D6002B;
+}
+#grades .grade-column.okay .grade {
+  background-color: #E17810;
+}
+#grades .grade-column.okay .letter {
+  color: #E17810;
+}
+#grades .grade-column.good .grade {
+  background-color: #008F09;
+}
+#grades .grade-column.good .letter {
+  color: #008F09;
+}
+#grades .grade-column h4 {
+  margin-top: 8px;
+}
+#grades .grade {
+  text-align: left;
+  color: white;
+  padding: 8px;
+}
+#grades .grade.b {
+  border-top: 3px solid rgba(255,255,255,0.8);
+  background-color: #1DB15A;
+}
+#grades .grade-column.good .grade.b .letter {
+  color: #1DB15A;
+}
+#grades .letter {
+  font-size: 32px;
+  background-color: white;
+  width: 46px;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#grades .letter .qual {
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  right: 2px;
+  display: inline-block;
+  width: 3px;
+}
+#grades .titles {
+  position: relative;
+  padding-left: 56px;
+  padding-top: 6px;
+  box-sizing: border-box;
+  height: 56px;
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+#grades .title.oneline {
+  line-height: 2;
+}
+#grades .subtitle {
+  font-size: 12px;
+}
+#grades .criteria {
+  margin: 0;
+  -webkit-padding-start: 20px;
+  padding-top: 8px;
+  padding-bottom: 40px;
+}
+
 #together {
   background: url(images/together.jpg) no-repeat 72% top;
   background-size: cover;
