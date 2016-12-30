@@ -284,7 +284,11 @@
   text-shadow: 0 0 15px rgba(0,0,0, 0.7);
 }
 #environment h2 {
+  color: white;
   margin-top: 0;
+}
+#environment h4 {
+  color: white;
 }
 #environment .outer {
   text-align: left;
@@ -349,6 +353,7 @@
 }
 #ghg .bittman h4 {
   font-size: 26px;
+  color: white;
 }
 
 #farmers {
@@ -418,6 +423,34 @@
     padding-top: 28%;
   }
 }
+
+#better-way {
+  background: url(images/better-way.jpg) no-repeat 10% top;
+  background-size: cover;
+  color: white;
+}
+#better-way h2 {
+  background: url(images/zag-white.png) repeat-x left bottom;
+  padding-bottom: 21px;
+  margin-bottom: 12px;
+}
+#better-way .outer {
+  text-align: left;
+  padding: 0 10%;
+}
+#better-way .quote h3 {
+  margin: 2px 0;
+}
+@media (min-width: 780px) {
+  #better-way .quote {
+    max-width: 535px;
+  }
+}
+#better-way .quote > * {
+  color: white;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
 
 #references .gtf-column {
   padding: 0 20px;
