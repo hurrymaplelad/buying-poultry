@@ -43,11 +43,14 @@
 
 #get-the-facts sup {
   font-size: 60%;
-  /* Align with top of text without expanding line-height of lines with a <sup>*/
-  /* See http://stackoverflow.com/a/1530819/407845 */
-  vertical-align: top;
-  position: relative;
-  top: 0.2em;
+}
+
+#get-the-facts sup > a {
+  color: inherit;
+  text-decoration: none;
+}
+#get-the-facts sup > a:hover {
+  text-decoration: underline;
 }
 
 /*
