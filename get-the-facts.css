@@ -647,3 +647,10 @@
   color: #7EAFDF;
   text-decoration: underline;
 }
+
+/*
+ * Selection share widget
+ */
+.selectionSharer ul {
+  margin: 0;
+}
